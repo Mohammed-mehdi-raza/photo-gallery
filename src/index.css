@@ -8,6 +8,7 @@ body{
 
 .head{
   position: relative;
+  left:-30%;
 }
 
 .title{
@@ -18,14 +19,14 @@ body{
 
 .title p{
   position: relative;
-  left:-5%;
+  left:-15%;
   text-transform: capitalize;
 }
 
 .upload{
   position: relative;
   top:100px;
-  left:36%;
+  left:57%;
 }
 
 .upload input{
@@ -91,13 +92,13 @@ body{
   left:0;
 }
 
-@media screen and (max-width:860px) {
+ @media screen and (max-width:860px) { 
     .head{
       left:0%;
     }
     .title p{
       left:-15%;
-    }
+    } 
     .upload{
       left:57%;
     }
@@ -108,4 +109,4 @@ body{
       grid-template-columns: 1fr;
       left:25%;
     }
-}
+} 
