@@ -1,13 +1,15 @@
 body{
   height:100vh;
   width:95vw;
-  background: linear-gradient(135deg,#4cb198,#8061d3 ) fixed; 
+  background: linear-gradient(135deg,#ee6b33,#46298f ) fixed; 
   display:flex;
   justify-content: center;
 }
 
 .head{
   position: relative;
+  font-size: 2rem;
+  color:rgba(30, 4, 4, 0.4);
   left:-30%;
 }
 
@@ -19,14 +21,15 @@ body{
 
 .title p{
   position: relative;
-  left:-15%;
+  left:-5%;
   text-transform: capitalize;
 }
 
 .upload{
   position: relative;
-  top:100px;
-  left:57%;
+  top:105px;
+  left:37%;
+  width: 100%;
 }
 
 .upload input{

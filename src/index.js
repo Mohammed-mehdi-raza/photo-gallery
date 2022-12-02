@@ -49,19 +49,21 @@ function Upload() {
         }
     }
     
-    return <div className="upload">
-        <form>
-            <label>
-                <input type="file" onChange={changeHandeler}></input>
-                <span>+</span>
-            </label>
-            <div className="output">
-                {error && <div className="error">{error}</div>}
-                {file && <div className='name' >{file.name}</div>}
-                {file && <ProgressBar file={file} setfile={setFile}/> }
-            </div>
-        </form>
-    </div>
+    return( 
+        <div className="upload">
+            <form>
+                <label>
+                    <input type="file" onChange={changeHandeler}></input>
+                    <span>+</span>
+                </label>
+                <div className="output">
+                    {error && <div className="error">{error}</div>}
+                    {file && <div className='name' >{file.name}</div>}
+                    {file && <ProgressBar file={file} setfile={setFile}/> }
+                </div>
+            </form>
+        </div>
+    );
 }
 
 function ImageGrid() {
